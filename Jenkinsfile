@@ -12,8 +12,8 @@ pipeline
 				stage('Test') {
 					steps {
 						echo 'Testing..'
+					}
 				}
-				
 				stage('Get approval'){
     					input "Deploy to qa?"
 					}
