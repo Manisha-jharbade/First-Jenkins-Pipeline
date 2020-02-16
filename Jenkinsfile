@@ -14,15 +14,7 @@ pipeline
 						echo 'Testing..'
 					}
 				}
-				stage('Get approval'){
-    					input "Deploy to qa?"
-					}
-				node {
-					    stage('deploy to qa'){
-						echo "deploying"
-					    }
-					}
-			
+				
 				stage('Build') {
 				steps {
 					echo 'Building....'
