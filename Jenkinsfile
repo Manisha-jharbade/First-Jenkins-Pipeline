@@ -1,7 +1,7 @@
 pipeline
 {
 	agent any
-	{
+	
 		stages 
 		{
 			stage('print hi')
@@ -12,6 +12,6 @@ pipeline
 				}
 			}
 		}
-	}
+	
 }
 
