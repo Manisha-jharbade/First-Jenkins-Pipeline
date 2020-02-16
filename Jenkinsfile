@@ -8,7 +8,7 @@ pipeline
 			{
 				steps
 				{
-					sh 'ech hi'
+					sh 'echo hi'
 				}
 			}
 		}
